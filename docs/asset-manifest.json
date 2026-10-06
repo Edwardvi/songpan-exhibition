@@ -9,80 +9,80 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "index.html": {
-      "bytes": 511,
-      "sha256": "d353b25184bcdbc54be20b0e85c2a866bd17f6c1d17387822145c6578b9b325e"
+      "bytes": 510,
+      "sha256": "4dc52f7c7424091b15b70b3b8bb898771153ec55b600d67a0cdc04ae00097151"
     },
     "model/app.js": {
-      "bytes": 24177,
-      "sha256": "a8139d65a545e89d68d598c355c24348e3208ae861489c891675048c1b9f3539"
+      "bytes": 23965,
+      "sha256": "6c6d02dfed66c5726cbb1614c2c29db3334c5377b8cdcc09eab42f08f973b2bb"
     },
     "model/budget-preview.css": {
-      "bytes": 8133,
-      "sha256": "c83e140ce9cf05b8d1d24e962e759874b7c90e489b04914708dcb0d2ecd8208c"
+      "bytes": 8086,
+      "sha256": "eee4a87f0adc78a84b5423a08e05d5e630a683a23276771a59022e2ffb78a00d"
     },
     "model/budget-preview.js": {
-      "bytes": 8910,
-      "sha256": "0666250742a3ddeeb68b43402b779900b9162ebc20bd4ceda802cc0c49818ee0"
+      "bytes": 8826,
+      "sha256": "3b570101c505fcb9f280ba3f15ff93c1f1ee0e1f7dab082de572f26f40f5bbfb"
     },
     "model/chapter-dialog.css": {
-      "bytes": 5771,
-      "sha256": "e751d248398bce6160afcb4f3f4d4ffe64492459a8eafbca6af63196b4c88220"
+      "bytes": 5707,
+      "sha256": "e65af7d1743937d0f447a9fc18448ce093e8637febb1a16ae47a2301527c8264"
     },
     "model/exhibition.css": {
-      "bytes": 8562,
-      "sha256": "e76ca1b770e73b474f628b3794d8fe1608ca0e0290a1b84a1ef67c130a754af7"
+      "bytes": 8515,
+      "sha256": "0ae767233db84e950f9782c8568e6e1c1648107202644c1a934287eb11b0a9a3"
     },
     "model/exhibition.js": {
-      "bytes": 21794,
-      "sha256": "3d2e31749fd9b6fc14985f14e6f5cbd8bd0ecb3be7a109c85266876c6898799e"
+      "bytes": 21613,
+      "sha256": "d1a3481fc25855ca8a7837c28c74085ed2fb267be361b7f58f66dc947ff6d556"
     },
     "model/film-playback.css": {
-      "bytes": 1188,
-      "sha256": "e87927454eedaee14e39632ebebebb6253d58ab584f941aa07c36e20d7955fa2"
+      "bytes": 1175,
+      "sha256": "e46d9aa72a8a85ca97cf2faf37feae47434b2e97708d510cfa7f133b9afe66b7"
     },
     "model/film-playback.js": {
-      "bytes": 8855,
-      "sha256": "83cf00f40a071488330d75caafd8c5c86ac8d6944dad97f0572d554f8e5104be"
+      "bytes": 8761,
+      "sha256": "e968310ac5957760a0331411a0d7ecca6a938a803ba16c5624722e59913578db"
     },
     "model/immersion-playback.css": {
-      "bytes": 1609,
-      "sha256": "c6cda003248f4cc7e8ff086fbafe174e781348016799771dceef72dc814a57ec"
+      "bytes": 1594,
+      "sha256": "ac24b52b304389c76d76baa14664b7136186757563fcf5b3359ede9d8b1ee523"
     },
     "model/immersion-playback.js": {
-      "bytes": 9298,
-      "sha256": "85025c66af440c336ebfbdb81253f8b61841414a40c52635adbcd9b7a97e8b0a"
+      "bytes": 9221,
+      "sha256": "a5b55f2c2110df92d1fa2510130c2d355676c4a0bef293f007053f4d65afa3cc"
     },
     "model/index.html": {
-      "bytes": 7521,
-      "sha256": "25fad4128fb4028ef916522cfd5099b8058d206e8f7b583de0f2eaa2f59e31f0"
+      "bytes": 7418,
+      "sha256": "35f0122e73a2c89f3d015fc7e62cbc1aa91744563380c3902377d9f885281094"
     },
     "model/keyboard-navigation.js": {
-      "bytes": 2552,
-      "sha256": "9ce3ddb22f210a3046839593de6f76cf48cd7033fab4376df8a9d884882e4d28"
+      "bytes": 2498,
+      "sha256": "56eb84f2d0563f28b09dc6e8050c4697e432c2aad97d176be9b28024c6bceaa0"
     },
     "model/styles.css": {
-      "bytes": 6345,
-      "sha256": "5dc904f6c303c52a3e499274fa162f396c329a2babf5cf9b813fb817a85b26f6"
+      "bytes": 6308,
+      "sha256": "f282ab44b2ac0a1ce25c1c702dbd4fc348ef853d8c9cffb7fdb73e798935eae7"
     },
     "model/assets/case-banner.txt": {
-      "bytes": 639,
-      "sha256": "7093cdf5211a0faf9b9c0dc7f4a200ec5b6b38366c9147defd758e33603b84ad"
+      "bytes": 636,
+      "sha256": "3744083ea1ee60b13117057afc795721a5904777b319bb29379dcdbe4675fe9c"
     },
     "model/assets/content-r2.md": {
       "bytes": 13120,
       "sha256": "b7b85df43f629ebe7938f5412372d4beac78706f20f58878ad4552f92780bbb5"
     },
     "model/assets/content-r4.md": {
-      "bytes": 8865,
-      "sha256": "63f5032b40203bdb7c57c609323efc7f80ee79d9c2e5277899f3024d79cebb8f"
+      "bytes": 8724,
+      "sha256": "c27c89357f177e694afea68c1da14f542af9b94fe17492b2b6743aa0b8824dd0"
     },
     "model/assets/exhibition-content-r4.json": {
-      "bytes": 23828,
-      "sha256": "93c899a041a1a38e5f27c7a2e83c083768b51dbd1b35f60bde0d7204c3d105a7"
+      "bytes": 23379,
+      "sha256": "b727aaa6f955c809b62633a292344bf5eb52c85d43d155da1c4ebdedbfbdc0e2"
     },
     "model/assets/immersion-wall-uv-v24.json": {
-      "bytes": 11744,
-      "sha256": "9125b736da204cd3b99627589df5ec30544c74898d168cf17d3232e4ec5925a2"
+      "bytes": 11139,
+      "sha256": "85ca0e3c72e913d3ae60c6cfd90158f431c25821b3fd7fe80bfc1fb86c3291e3"
     },
     "model/assets/night-reflection-1536.jpg": {
       "bytes": 99496,
@@ -141,12 +141,12 @@
       "sha256": "0a3cd40c6a6f0a945370b5fa8f88ae63f9fef8dd9cc25fc64f5649aeb1ff8830"
     },
     "model/assets/r31-scene-data.json": {
-      "bytes": 9505,
-      "sha256": "4ae19794bcbb248955dff21225899d41c89fa7a96cbda44e6b26df8cc60b2be1"
+      "bytes": 9059,
+      "sha256": "e95bc03a007a4ded5f6fe526f21950b20e861602b790f6a658d92f116aa1e85f"
     },
     "model/data/budget-estimate-r1.json": {
-      "bytes": 29453,
-      "sha256": "0d51b0b120835a2be7718793915ae57aeffc9a6f2659e8f01957d959092c3c9b"
+      "bytes": 28642,
+      "sha256": "f248e166f455585c5aba6a58dd31b5cb15d00cab1907b04169e06d986e1475cd"
     },
     "model/downloads/songpan-budget-estimate-r1.docx": {
       "bytes": 26744,
