@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "prefixed_browser_checks": [
+    {
+      "name": "Repository prefix opens R31 bird view",
+      "passed": true
+    },
+    {
+      "name": "Entry keeps18 views and media lazy loading",
+      "passed": true
+    },
+    {
+      "name": "All runtime dependencies hosted under project prefix",
+      "passed": true,
+      "detail": [
+        "blob:http://127.0.0.1:18767/54393d33-3e00-434c-9c15-5de7b75382d6",
+        "blob:http://127.0.0.1:18767/34012bb8-d33a-44d1-abff-04bddf890a31",
+        "blob:http://127.0.0.1:18767/4e02978a-4d2e-4baa-8af3-a0d34acc55b0",
+        "blob:http://127.0.0.1:18767/53e6c979-8129-4bb8-afb0-e691bb4c42df",
+        "blob:http://127.0.0.1:18767/9d7e3140-b472-460f-8c23-a7c6aab42023",
+        "blob:http://127.0.0.1:18767/c1d1d681-c457-442d-a605-2fa247109cd9",
+        "blob:http://127.0.0.1:18767/3ef714ae-4762-4bc4-9665-a356da5a6bc1",
+        "blob:http://127.0.0.1:18767/3c421e02-d933-4beb-9a37-dbc03002ae66",
+        "blob:http://127.0.0.1:18767/be837d49-1999-4737-8af4-dce13d824d69",
+        "blob:http://127.0.0.1:18767/3f704c5a-66ce-4a87-aa68-e5524ea5aa39",
+        "blob:http://127.0.0.1:18767/681279c5-4cba-4fc7-a76b-860ecbbddf26",
+        "blob:http://127.0.0.1:18767/f64fd4f0-b99f-4650-a144-a9a69eb6c745",
+        "blob:http://127.0.0.1:18767/980d93b8-2497-4597-aa98-b5d0c1f6ec25",
+        "blob:http://127.0.0.1:18767/c9f24a21-4cd4-419f-b20f-7a12b154424c",
+        "blob:http://127.0.0.1:18767/a47b5ec1-773e-440d-b03d-8cfa28e7f26a",
+        "blob:http://127.0.0.1:18767/16625429-05b5-46d0-ab93-471bc55f191f"
+      ]
+    },
+    {
+      "name": "R31 model names and platform heading preserved",
+      "passed": true
+    },
+    {
+      "name": "film retains three view choices",
+      "passed": true
+    },
+    {
+      "name": "film central article loads without tabs",
+      "passed": true
+    },
+    {
+      "name": "immersion retains three view choices",
+      "passed": true
+    },
+    {
+      "name": "immersion central article loads without tabs",
+      "passed": true
+    },
+    {
+      "name": "resources retains three view choices",
+      "passed": true
+    },
+    {
+      "name": "resources central article loads without tabs",
+      "passed": true
+    },
+    {
+      "name": "Map source credit retained in article",
+      "passed": true
+    },
+    {
+      "name": "roles retains three view choices",
+      "passed": true
+    },
+    {
+      "name": "roles central article loads without tabs",
+      "passed": true
+    },
+    {
+      "name": "Public case keeps confirmed names and route wording",
+      "passed": true
+    },
+    {
+      "name": "platform retains three view choices",
+      "passed": true
+    },
+    {
+      "name": "platform central article loads without tabs",
+      "passed": true
+    },
+    {
+      "name": "exit retains three view choices",
+      "passed": true
+    },
+    {
+      "name": "exit central article loads without tabs",
+      "passed": true
+    },
+    {
+      "name": "Budget and all47 items load under repository prefix",
+      "passed": true
+    },
+    {
+      "name": "Quote download matches saved document",
+      "passed": true
+    },
+    {
+      "name": "Compressed720p film decodes on model LED",
+      "passed": true
+    },
+    {
+      "name": "Compressed movie seeks through HTTP ranges",
+      "passed": true
+    },
+    {
+      "name": "Budget still pauses LED movie",
+      "passed": true
+    },
+    {
+      "name": "Immersion keeps original frame and three connected walls",
+      "passed": true
+    },
+    {
+      "name": "Static night sky restores original mesh material",
+      "passed": true
+    },
+    {
+      "name": "Road layer can be switched off",
+      "passed": true
+    },
+    {
+      "name": "High resolution photo and poster files included",
+      "passed": true
+    },
+    {
+      "name": "Mobile budget is contained and all47 items accessible",
+      "passed": true
+    },
+    {
+      "name": "Return link keeps project prefix and bird entry",
+      "passed": true
+    },
+    {
+      "name": "Old version parameter safely uses published R31",
+      "passed": true
+    },
+    {
+      "name": "No script errors, missing files or external runtime calls",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "bad": []
+      }
+    }
+  ],
+  "root_entry": {
+    "passed": true,
+    "model": "R31",
+    "entry": "overview",
+    "budget_rows": 47,
+    "errors": [],
+    "method": "Headless root-path smoke check; no screenshots."
+  },
+  "source_files_unchanged": 142,
+  "film": {
+    "sharing_bytes": 25523374,
+    "sharing_sha256": "0fd1d8150bf312a35dfac1194089ea055b831e6d458fa24f192fb0f8f40cbf1a",
+    "resolution": [
+      1280,
+      720
+    ],
+    "fps": 24,
+    "video_codec": "H264",
+    "audio_codec": "AAC",
+    "fast_start": true,
+    "full_decode_passed": true
+  },
+  "method": "Data, asset hashes, full media decoding and headless DOM/geometry checks only; no screenshots.",
+  "hosting_status": "Ready for upload; no remote repository created or GitHub Pages deployment performed."
+}

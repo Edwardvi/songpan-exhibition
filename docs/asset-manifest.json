@@ -1,0 +1,188 @@
+{
+  "model": "R31",
+  "content": "R4",
+  "revision": 27,
+  "date": "2026-10-06",
+  "files": {
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "index.html": {
+      "bytes": 511,
+      "sha256": "d353b25184bcdbc54be20b0e85c2a866bd17f6c1d17387822145c6578b9b325e"
+    },
+    "model/app.js": {
+      "bytes": 24177,
+      "sha256": "a8139d65a545e89d68d598c355c24348e3208ae861489c891675048c1b9f3539"
+    },
+    "model/budget-preview.css": {
+      "bytes": 8133,
+      "sha256": "c83e140ce9cf05b8d1d24e962e759874b7c90e489b04914708dcb0d2ecd8208c"
+    },
+    "model/budget-preview.js": {
+      "bytes": 8910,
+      "sha256": "0666250742a3ddeeb68b43402b779900b9162ebc20bd4ceda802cc0c49818ee0"
+    },
+    "model/chapter-dialog.css": {
+      "bytes": 5771,
+      "sha256": "e751d248398bce6160afcb4f3f4d4ffe64492459a8eafbca6af63196b4c88220"
+    },
+    "model/exhibition.css": {
+      "bytes": 8562,
+      "sha256": "e76ca1b770e73b474f628b3794d8fe1608ca0e0290a1b84a1ef67c130a754af7"
+    },
+    "model/exhibition.js": {
+      "bytes": 21794,
+      "sha256": "3d2e31749fd9b6fc14985f14e6f5cbd8bd0ecb3be7a109c85266876c6898799e"
+    },
+    "model/film-playback.css": {
+      "bytes": 1188,
+      "sha256": "e87927454eedaee14e39632ebebebb6253d58ab584f941aa07c36e20d7955fa2"
+    },
+    "model/film-playback.js": {
+      "bytes": 8855,
+      "sha256": "83cf00f40a071488330d75caafd8c5c86ac8d6944dad97f0572d554f8e5104be"
+    },
+    "model/immersion-playback.css": {
+      "bytes": 1609,
+      "sha256": "c6cda003248f4cc7e8ff086fbafe174e781348016799771dceef72dc814a57ec"
+    },
+    "model/immersion-playback.js": {
+      "bytes": 9298,
+      "sha256": "85025c66af440c336ebfbdb81253f8b61841414a40c52635adbcd9b7a97e8b0a"
+    },
+    "model/index.html": {
+      "bytes": 7521,
+      "sha256": "25fad4128fb4028ef916522cfd5099b8058d206e8f7b583de0f2eaa2f59e31f0"
+    },
+    "model/keyboard-navigation.js": {
+      "bytes": 2552,
+      "sha256": "9ce3ddb22f210a3046839593de6f76cf48cd7033fab4376df8a9d884882e4d28"
+    },
+    "model/styles.css": {
+      "bytes": 6345,
+      "sha256": "5dc904f6c303c52a3e499274fa162f396c329a2babf5cf9b813fb817a85b26f6"
+    },
+    "model/assets/case-banner.txt": {
+      "bytes": 639,
+      "sha256": "7093cdf5211a0faf9b9c0dc7f4a200ec5b6b38366c9147defd758e33603b84ad"
+    },
+    "model/assets/content-r2.md": {
+      "bytes": 13120,
+      "sha256": "b7b85df43f629ebe7938f5412372d4beac78706f20f58878ad4552f92780bbb5"
+    },
+    "model/assets/content-r4.md": {
+      "bytes": 8865,
+      "sha256": "63f5032b40203bdb7c57c609323efc7f80ee79d9c2e5277899f3024d79cebb8f"
+    },
+    "model/assets/exhibition-content-r4.json": {
+      "bytes": 23828,
+      "sha256": "93c899a041a1a38e5f27c7a2e83c083768b51dbd1b35f60bde0d7204c3d105a7"
+    },
+    "model/assets/immersion-wall-uv-v24.json": {
+      "bytes": 11744,
+      "sha256": "9125b736da204cd3b99627589df5ec30544c74898d168cf17d3232e4ec5925a2"
+    },
+    "model/assets/night-reflection-1536.jpg": {
+      "bytes": 99496,
+      "sha256": "d7c28321517fa6a74e4fb1ebeb3ba08e8f1adc70ef100d0dc1386783e0f50af7"
+    },
+    "model/assets/night-wall-2048.jpg": {
+      "bytes": 402373,
+      "sha256": "a0601f890dd67d99a5543a7088aab010ef2af7164dd2baa183a7454682dd3582"
+    },
+    "model/assets/night-wall-4096.jpg": {
+      "bytes": 2714715,
+      "sha256": "13894e4e8eee8ac878d17eb4835d96f11c770b83ffc7a8a51b21ed25cff0d40a"
+    },
+    "model/assets/r24-preview-icon.svg": {
+      "bytes": 225,
+      "sha256": "37d68540dae307c419745560f140a27bf05fad488b930fbe918ac588ebc24bd4"
+    },
+    "model/assets/r25-floor-light-1024.jpg": {
+      "bytes": 204214,
+      "sha256": "1d16a7f437b7284e287b367eafc11df0de890f64f6756bcef710f8b88195c715"
+    },
+    "model/assets/r25-leaf-light-1024.jpg": {
+      "bytes": 551166,
+      "sha256": "08a393a7e80b81270c4a8eaa9df80c57d17b3552f8d6b31352781a35961f776e"
+    },
+    "model/assets/r25-night-reflection-1536.jpg": {
+      "bytes": 124656,
+      "sha256": "5cf73efc51d07db95cac6e384b6f904283f998538316874f223dcf6a33adc8c0"
+    },
+    "model/assets/r25-rock-light-2048.jpg": {
+      "bytes": 1199366,
+      "sha256": "99c9906d010a122d33911b21bf5fc65d730c7fa246201bdaa00398b89446fe17"
+    },
+    "model/assets/r28-user-outdoor-map-2048.jpg": {
+      "bytes": 1767176,
+      "sha256": "ef2f179829a625c75e3de7223f4cdde17cc8f8a52801d2e00945db89e99e12b8"
+    },
+    "model/assets/r28-user-outdoor-map-4096.jpg": {
+      "bytes": 6359185,
+      "sha256": "537ac269e53c02ada889f27117180aeaa961f799a4e6a7ab9b30b62f65a3473a"
+    },
+    "model/assets/r29-platform-script.png": {
+      "bytes": 138648,
+      "sha256": "6a79e4ca5d28457a69990695b3748b8d4c4cfdcbbd7c172f871924fc75671db7"
+    },
+    "model/assets/r30-development-swiss-2048.png": {
+      "bytes": 397618,
+      "sha256": "6fa6eb351357d7b569b12b3e8ac4b56abcdb9dfeb55891de3d4ba2af068636a0"
+    },
+    "model/assets/r31-exhibition.glb": {
+      "bytes": 25338440,
+      "sha256": "7d61a1c3c5799e9e52dd911747be4cf535a4fa7d95095a6a3506664f4336db09"
+    },
+    "model/assets/r31-immersive.glb": {
+      "bytes": 11523116,
+      "sha256": "0a3cd40c6a6f0a945370b5fa8f88ae63f9fef8dd9cc25fc64f5649aeb1ff8830"
+    },
+    "model/assets/r31-scene-data.json": {
+      "bytes": 9505,
+      "sha256": "4ae19794bcbb248955dff21225899d41c89fa7a96cbda44e6b26df8cc60b2be1"
+    },
+    "model/data/budget-estimate-r1.json": {
+      "bytes": 29453,
+      "sha256": "0d51b0b120835a2be7718793915ae57aeffc9a6f2659e8f01957d959092c3c9b"
+    },
+    "model/downloads/songpan-budget-estimate-r1.docx": {
+      "bytes": 26744,
+      "sha256": "614e92e8ed653ba06f7ecec6f38286db6d3c6aa72631626d349c35707003bfaa"
+    },
+    "model/media/immersion-reference-web.mp4": {
+      "bytes": 24137773,
+      "sha256": "3d564ebceb9d6ebe516128970a5225a4c525e0f4f56970d972fe207d917009cd"
+    },
+    "model/media/songpan-outdoor-web.mp4": {
+      "bytes": 25523374,
+      "sha256": "0fd1d8150bf312a35dfac1194089ea055b831e6d458fa24f192fb0f8f40cbf1a"
+    },
+    "model/vendor/three/LICENSE": {
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "model/vendor/three/build/three.core.js": {
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    "model/vendor/three/build/three.module.js": {
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    "model/vendor/three/examples/jsm/controls/OrbitControls.js": {
+      "bytes": 38703,
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+    },
+    "model/vendor/three/examples/jsm/loaders/GLTFLoader.js": {
+      "bytes": 114739,
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+    },
+    "model/vendor/three/examples/jsm/utils/BufferGeometryUtils.js": {
+      "bytes": 35539,
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    }
+  }
+}

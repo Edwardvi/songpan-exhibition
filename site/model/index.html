@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#263c36"><title>展览预演｜松潘户外文旅展</title>
+  <link rel="stylesheet" href="./styles.css?rev=27"><link rel="stylesheet" href="./exhibition.css?rev=27"><link rel="stylesheet" href="./chapter-dialog.css?rev=27">
+  <link rel="stylesheet" href="./film-playback.css?rev=27">
+  <link rel="stylesheet" href="./immersion-playback.css?rev=27">
+  <link rel="stylesheet" href="./budget-preview.css?rev=27">
+  <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
+  <link rel="icon" type="image/svg+xml" href="./assets/r24-preview-icon.svg">
+</head>
+<body class="preview-shell"><a class="skip-link" href="#chapter-title">跳到本章介绍</a>
+  <header class="masthead">
+    <a id="home-link" class="brand" href="./?rev=27&amp;chapter=film" aria-label="松潘户外文旅展，回到参观起点"><strong>松潘</strong><span>户外文旅展 <small>方案初稿</small></span></a>
+    <button id="budget-button" class="budget-button" type="button" aria-haspopup="dialog" aria-controls="budget-dialog" aria-expanded="false">预算估计 <span aria-hidden="true">↗</span></button>
+  </header>
+  <nav id="chapters" class="chapters" aria-label="按参观顺序选择章节"></nav>
+  <main>
+    <aside class="chapter-reading" aria-labelledby="chapter-title">
+      <p class="eyebrow">当前章节</p>
+      <h1 id="chapter-title" tabindex="-1">宣传片</h1>
+      <p id="chapter-copy" class="chapter-copy">先看见松潘，再走近这片山川。</p>
+      <button id="content-link" class="read-chapter" type="button">了解本章 <span aria-hidden="true">↗</span></button>
+      <p id="chapter-note" class="chapter-note"></p>
+      <p id="content-status" class="content-status" role="status" hidden></p>
+    </aside>
+    <section class="viewport-section" aria-label="三维展览预演">
+      <div id="viewport">
+        <canvas id="scene" tabindex="0" aria-label="可用方向键移动、拖动旋转、滚轮缩放的松潘展项模型" aria-describedby="movement-hint"></canvas>
+        <span id="state" class="sr-only" role="status">正在载入模型</span>
+        <div class="viewport-tools">
+          <details id="picture-settings" class="picture-settings">
+            <summary>画面设置</summary>
+            <div class="settings-menu" aria-label="模型显示设置">
+              <button id="reset" type="button">复位视角</button>
+              <button id="roof" type="button" aria-pressed="false">显示屋面</button>
+              <button id="context" type="button" aria-pressed="true">显示原馆</button>
+              <button id="quality" type="button" aria-pressed="false" disabled>清晰画面</button>
+              <div id="map-layers" class="map-layer-controls" hidden><p>地图标记</p><div><button id="map-layer-road" type="button" aria-pressed="true">公路</button><button id="map-layer-rail" type="button" aria-pressed="true">铁路</button><button id="map-layer-hiking" type="button" aria-pressed="true">徒步</button></div></div>
+            </div>
+          </details>
+          <button id="fullscreen" type="button">全屏</button>
+        </div>
+        <div id="loading" role="status"><span class="loading-symbol" aria-hidden="true">山</span><h2>正在载入空间</h2><p id="progress">准备模型与材质</p><button id="retry" type="button" hidden>重新载入</button></div>
+        <span id="movement-hint" class="hint">方向键移动 · 拖动旋转 · 滚轮缩放</span>
+      </div>
+      <section id="immersion-controls" class="immersion-controls" aria-label="沉浸区效果预览控制" hidden>
+        <div class="immersion-controls__main">
+          <button id="immersion-play" type="button">播放</button>
+          <time id="immersion-current">0:00</time>
+          <input id="immersion-seek" type="range" min="0" max="71.03" step="0.1" value="0" aria-label="沉浸预览进度" disabled>
+          <time id="immersion-duration">1:11</time>
+        </div>
+        <div class="immersion-controls__sound">
+          <button id="immersion-dynamic" type="button" aria-pressed="false">动态预览</button>
+          <button id="immersion-static" type="button" aria-pressed="true">夜空静态</button>
+          <button id="immersion-mute" type="button" aria-pressed="false">静音</button>
+          <input id="immersion-volume" type="range" min="0" max="1" step="0.05" value="0.65" aria-label="沉浸预览音量">
+          <span id="immersion-status" role="status">夜空静态</span>
+        </div>
+      </section>
+      <section id="film-controls" class="film-controls" aria-label="宣传片播放控制" hidden>
+        <div class="film-controls__main">
+          <button id="film-play" type="button">播放</button>
+          <time id="film-current">0:00</time>
+          <input id="film-seek" type="range" min="0" max="314.376" step="0.1" value="0" aria-label="影片进度" disabled>
+          <time id="film-duration">5:14</time>
+        </div>
+        <div class="film-controls__sound">
+          <button id="film-mute" type="button" aria-pressed="false">静音</button>
+          <input id="film-volume" type="range" min="0" max="1" step="0.05" value="0.65" aria-label="音量">
+          <span id="film-status" role="status">点击播放</span>
+        </div>
+      </section>
+      <div class="view-bar">
+        <nav id="quick-views" class="quick-views" aria-label="本章常用视点"></nav>
+      </div>
+      <div class="scene-footer">
+        <button id="chapter-prev" class="quiet-button" type="button">← 上一章</button>
+        <span id="chapter-progress" aria-live="polite">01 / 06</span>
+        <button id="chapter-next" class="primary-button" type="button">下一章 →</button>
+      </div>
+    </section>
+  </main>
+  <dialog id="exhibit-dialog" class="chapter-modal" aria-labelledby="exhibit-title">
+    <header class="chapter-modal__header">
+      <span id="modal-chapter-number" class="chapter-modal__number" aria-hidden="true">01</span>
+      <h2 id="exhibit-title">宣传片</h2>
+      <button id="close-exhibit" class="chapter-modal__close" type="button" autofocus aria-label="关闭本章说明">×</button>
+    </header>
+    <article id="exhibit-body" class="chapter-modal__body" tabindex="0" aria-labelledby="exhibit-title"></article>
+  </dialog>
+  <dialog id="budget-dialog" class="budget-modal" aria-labelledby="budget-title" aria-describedby="budget-description">
+    <header class="budget-modal__header">
+      <div><h2 id="budget-title">预算估计</h2><p id="budget-description">松潘户外文旅展 · 2026年10月6日 · 价格待核</p></div>
+      <a class="budget-download" href="./downloads/songpan-budget-estimate-r1.docx" download="松潘户外文旅展预算估计表R1.docx">下载报价表 <span aria-hidden="true">↗</span></a>
+      <button id="close-budget" class="chapter-modal__close" type="button" autofocus aria-label="关闭预算估计">×</button>
+    </header>
+    <article id="budget-body" class="budget-modal__body" tabindex="0" aria-label="预算汇总和完整清单" aria-busy="false"><p>正在载入预算资料</p></article>
+  </dialog>
+  <script type="module" src="./app.js?rev=27"></script>
+</body></html>

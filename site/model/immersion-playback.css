@@ -1,0 +1,15 @@
+.immersion-controls{position:fixed;z-index:4;left:50%;bottom:146px;transform:translateX(-50%);width:min(480px,calc(100vw - 24px));padding:9px 12px;background:#f4f1e9ed;backdrop-filter:blur(12px);font-family:Helvetica,Arial,"Microsoft YaHei",sans-serif;font-size:11px;color:#263c36}
+.immersion-controls[hidden]{display:none}
+.immersion-controls__main,.immersion-controls__sound{display:flex;align-items:center;gap:8px;min-width:0}
+.immersion-controls__sound{margin-top:5px}
+.immersion-controls button{padding:5px 7px;white-space:nowrap;font:inherit;border:0;background:transparent}
+.immersion-controls button[aria-pressed=true]{box-shadow:inset 0 -1px #263c36}
+.immersion-controls button:focus-visible,.immersion-controls input:focus-visible{outline:2px solid #9f5635;outline-offset:3px}
+.immersion-controls input{accent-color:#263c36;min-width:0;margin:0}
+#immersion-seek{flex:1;width:0;min-width:25px}
+#immersion-volume{width:70px}
+.immersion-controls time{font-variant-numeric:tabular-nums;white-space:nowrap}
+#immersion-status{margin-left:auto;font-size:10px;color:#647068;white-space:nowrap}
+@media(max-width:760px){.immersion-controls{bottom:138px;padding:7px 10px}.immersion-controls__main,.immersion-controls__sound{gap:5px}.immersion-controls button{padding:5px}.immersion-active .viewport-tools{bottom:230px}#immersion-volume{width:56px}}
+@media(max-width:360px){.immersion-controls{font-size:10px}.immersion-controls__sound{flex-wrap:wrap}#immersion-status{font-size:9px}#immersion-volume{width:45px}}
+@media(max-height:520px) and (min-width:761px){.immersion-controls{bottom:120px}}

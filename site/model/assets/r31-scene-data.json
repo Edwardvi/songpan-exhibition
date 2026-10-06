@@ -1,0 +1,447 @@
+{
+  "version": "R31",
+  "views": [
+    {
+      "id": "overview",
+      "title": "整栋建筑鸟瞰",
+      "position": [
+        29,
+        26,
+        25
+      ],
+      "target": [
+        11.25,
+        1.5,
+        5.85
+      ],
+      "fov": 50,
+      "fit": "building"
+    },
+    {
+      "id": "film_entry",
+      "title": "门厅入场",
+      "position": [
+        1.1,
+        1.65,
+        8.9
+      ],
+      "target": [
+        3,
+        1.5,
+        5.5
+      ],
+      "fov": 65
+    },
+    {
+      "id": "film_screen",
+      "title": "宣传片位置",
+      "position": [
+        2.25,
+        1.65,
+        7.2
+      ],
+      "target": [
+        2.25,
+        1.85,
+        3.86
+      ],
+      "fov": 58
+    },
+    {
+      "id": "immersive_material",
+      "title": "沉浸 · 材质与整体氛围",
+      "position": [
+        9.75,
+        1.45,
+        8.25
+      ],
+      "target": [
+        7.55,
+        1.1,
+        4.25
+      ],
+      "fov": 74
+    },
+    {
+      "id": "immersive_pool",
+      "title": "沉浸 · 石群中的水面",
+      "position": [
+        8.55,
+        1.42,
+        4.25
+      ],
+      "target": [
+        8.35,
+        0.22,
+        2.12
+      ],
+      "fov": 70
+    },
+    {
+      "id": "immersive_stone_path",
+      "title": "沉浸 · 石岸与窄路径俯看",
+      "position": [
+        8.5,
+        5.2,
+        8.5
+      ],
+      "target": [
+        8.4,
+        0.15,
+        5.4
+      ],
+      "fov": 68
+    },
+    {
+      "id": "resource",
+      "title": "方形地形台与资源总图",
+      "position": [
+        16.8,
+        2.6,
+        1.7
+      ],
+      "target": [
+        15.6,
+        2.2,
+        6.5
+      ],
+      "fov": 66
+    },
+    {
+      "id": "resource_detail",
+      "title": "卫星地形与交通线路近看",
+      "position": [
+        17.25,
+        2.7,
+        4.45
+      ],
+      "target": [
+        16.06,
+        1.02,
+        6.05
+      ],
+      "fov": 52
+    },
+    {
+      "id": "resource_route",
+      "title": "地形上的公路、铁路与徒步",
+      "position": [
+        16.06,
+        4.4,
+        4.9
+      ],
+      "target": [
+        16.06,
+        0.99,
+        6.05
+      ],
+      "fov": 44
+    },
+    {
+      "id": "collaboration",
+      "title": "五方 · 文字朝圆外",
+      "position": [
+        15.3,
+        2.1,
+        4.5
+      ],
+      "target": [
+        15.3,
+        0.85,
+        2.42
+      ],
+      "fov": 68
+    },
+    {
+      "id": "case_banner",
+      "title": "案例 · 小吊旗与外向文字",
+      "position": [
+        13.0,
+        1.68,
+        5.3
+      ],
+      "target": [
+        13.35,
+        1.6,
+        3.3
+      ],
+      "fov": 58
+    },
+    {
+      "id": "evidence_detail",
+      "title": "五方 · 内容卡与物证",
+      "position": [
+        14.0,
+        1.6,
+        3.85
+      ],
+      "target": [
+        14.65,
+        0.88,
+        3.28
+      ],
+      "fov": 58
+    },
+    {
+      "id": "platform",
+      "title": "柱间电视正面",
+      "position": [
+        20.700003623962402,
+        1.65,
+        6.83900101184845
+      ],
+      "target": [
+        20.700003623962402,
+        1.6199999451637268,
+        3.6390010118484497
+      ],
+      "fov": 52
+    },
+    {
+      "id": "platform_side",
+      "title": "柱间电视侧面",
+      "position": [
+        22.05,
+        1.75,
+        6.1
+      ],
+      "target": [
+        20.700003623962402,
+        1.6199999451637268,
+        3.6390010118484497
+      ],
+      "fov": 58
+    },
+    {
+      "id": "platform_overview",
+      "title": "电视与出口关系",
+      "position": [
+        21.1,
+        7,
+        6.6
+      ],
+      "target": [
+        20.7,
+        1.5,
+        5.0
+      ],
+      "fov": 60
+    },
+    {
+      "id": "development",
+      "title": "发展展望吊旗",
+      "position": [
+        20.7,
+        1.7,
+        5.0
+      ],
+      "target": [
+        20.7,
+        3.075,
+        7.65
+      ],
+      "fov": 55,
+      "fit": "development-banner"
+    },
+    {
+      "id": "development_side",
+      "title": "吊旗与门侧看",
+      "position": [
+        18.3,
+        2.2,
+        5.9
+      ],
+      "target": [
+        20.7,
+        3.075,
+        7.65
+      ],
+      "fov": 60,
+      "fit": "development-banner"
+    },
+    {
+      "id": "development_overview",
+      "title": "吊旗与门俯看",
+      "position": [
+        19,
+        7.3,
+        9.4
+      ],
+      "target": [
+        20.7,
+        2.4,
+        6.6
+      ],
+      "fov": 55,
+      "fit": "development-banner"
+    }
+  ],
+  "checks": {
+    "native_layout_passed": true,
+    "selected_door": "C3",
+    "banner_width": 1.7999992370605469,
+    "source_r25_preserved": true,
+    "immersion_assets_reused": true,
+    "source_r26_preserved": true,
+    "terrain_geodata_passed": true,
+    "source_r27_preserved": true,
+    "route_data_passed": true,
+    "native_reopen_passed": true,
+    "source_r28_preserved": true,
+    "source_r29_preserved": true,
+    "source_r30_preserved": true
+  },
+  "assets": {
+    "immersion": "r31-immersive.glb",
+    "exhibition": "r31-exhibition.glb"
+  },
+  "reflectionAsset": "r25-night-reflection-1536.jpg",
+  "materialLightMaps": {
+    "rock": {
+      "material": "R25_PBR_rock",
+      "size": 2048,
+      "objects": 129,
+      "lightAsset": "r25-rock-light-2048.jpg",
+      "irradianceIntensity": 3.141592653589793,
+      "envIntensity": 0.72
+    },
+    "leaf": {
+      "material": "R25_PBR_leaf",
+      "size": 1024,
+      "objects": 7,
+      "lightAsset": "r25-leaf-light-1024.jpg",
+      "irradianceIntensity": 3.141592653589793,
+      "envIntensity": 0.42
+    },
+    "floor": {
+      "material": "R25_PBR_floor",
+      "size": 1024,
+      "objects": 1,
+      "lightAsset": "r25-floor-light-1024.jpg",
+      "irradianceIntensity": 3.141592653589793,
+      "envIntensity": 0.52
+    }
+  },
+  "buildingBounds": [
+    [
+      -0.35,
+      -0.2,
+      -0.3
+    ],
+    [
+      22.85,
+      6.05,
+      12.05
+    ]
+  ],
+  "terrain": {
+    "mesh_sampling_m": 250,
+    "source_overview_arc_seconds": 8,
+    "horizontal_scale_denominator": 79252.09731361478,
+    "horizontal_scale_uniform": true,
+    "north_direction": "Blender -Y / web +Z",
+    "vertical_exaggeration": 4,
+    "elevation_datum_m": 1110.3167724609375,
+    "max_mesh_elevation_m": 5393.5625,
+    "terrain_size_m": [
+      1.9112048149108887,
+      1.4600000381469727,
+      0.2161833643913269
+    ],
+    "vertices": 136769,
+    "triangles": 270008,
+    "boundary_edges": 3528,
+    "imagery_size": [
+      2048,
+      1576
+    ],
+    "texture_sha256": "4dd2b907872a6101c24ac95b8b7069dab3f6f2d7add98c6f83bd40bcf1badb01",
+    "route_overlay": "Removed unregistered conceptual terrain line; itinerary sequence retained separately on table fascia.",
+    "boundary_status": "Reference outline from OSM, simplified within 25m and resampled along edges at <=250m. Official administrative boundary remains to be confirmed.",
+    "source": "Copernicus GLO-30 2021 release; 250m exhibition mesh from average source overview",
+    "imagery": "EOX Sentinel-2 cloudless2016",
+    "boundary": "OSM reference; official boundary pending verification",
+    "position": [
+      16.06,
+      0.98,
+      6.05
+    ],
+    "rotation_deg": 180,
+    "north_web_direction": [
+      0,
+      0,
+      1
+    ],
+    "source_local_north_direction": "Blender +Y / web -Z"
+  },
+  "mapLayers": {
+    "road": {
+      "source": "OpenStreetMap",
+      "color": "orange",
+      "classes": [
+        "motorway",
+        "trunk",
+        "primary",
+        "secondary",
+        "tertiary"
+      ]
+    },
+    "rail": {
+      "source": "OpenStreetMap",
+      "color": "blue",
+      "construction": "dashed; source tag retained"
+    },
+    "hiking": {
+      "source": "6 independent local KML files",
+      "color": "lime",
+      "hand_drawn": "H02-1 dashed"
+    },
+    "source_timestamp": "2026-10-06T00:52:18Z",
+    "display_width": "cartographic exaggerated width, not real engineering width"
+  },
+  "userPoster": {
+    "asset": "r28-user-outdoor-map-2048.jpg",
+    "clearAsset": "r28-user-outdoor-map-4096.jpg",
+    "entire_original": true,
+    "aspect": 0.7765042979942693,
+    "width": 2.3
+  },
+  "content_revision": "R3",
+  "platformIllustration": {
+    "asset": "r29-platform-script.png",
+    "identity": "协作流程 · 策展示意",
+    "stages": [
+      "行前",
+      "途中",
+      "情况变化",
+      "处理确认",
+      "行后反馈"
+    ]
+  },
+  "developmentBanner": {
+    "width": 1.8,
+    "height": 1.25,
+    "center_web": [
+      20.7,
+      3.075,
+      7.65
+    ],
+    "bottom": 2.45,
+    "top": 3.7,
+    "old_bottom": 2.75,
+    "old_top": 4.15,
+    "lower_clamp_bottom": 2.439000129699707,
+    "style": "Swiss typography",
+    "material": "R30_Swiss_development_unlit",
+    "graphic": "r30-development-swiss-2048.png"
+  },
+  "displayCopy": {
+    "revision": "R4",
+    "roleNames": {
+      "business": "俱乐部",
+      "practitioner": "向导"
+    },
+    "platformWallTitle": "松潘户外智慧管理平台",
+    "platformSupportingLabels": false
+  }
+}
